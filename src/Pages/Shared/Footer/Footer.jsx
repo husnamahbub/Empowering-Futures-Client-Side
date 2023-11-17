@@ -2,7 +2,7 @@
 const Footer = () => {
     return (
         <div>
-            <footer className="footer p-10 bg-slate-400 text-white mt-20">
+          <footer className="footer p-10 bg-neutral text-neutral-content">
   <aside>
     <img className="w-20" src="https://images.squarespace-cdn.com/content/v1/5941dba2b3db2bab435fa5a7/c47baec4-8fde-4e41-a2f8-7bb6fe0ac913/hiring+icon.png" alt="" />
      <h2>01761100617</h2>

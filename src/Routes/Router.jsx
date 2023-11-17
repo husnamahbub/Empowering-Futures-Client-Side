@@ -3,6 +3,7 @@ import Root from "../Layout/Root";
 import Home from "../Pages/Home/Home/Home";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
+import AddAJobs from "../Pages/AddAJobs/AddAJobs";
 
 
 export const router = createBrowserRouter([
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
           {
             path: '/register',
             element: <Register></Register>
+          },
+          {
+            path: '/addJob',
+            element: <AddAJobs></AddAJobs>
           }
         ]
     }

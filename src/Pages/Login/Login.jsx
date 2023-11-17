@@ -5,7 +5,7 @@ import Navbar from "../Shared/Navbar/Navbar";
 import { toast } from "react-toastify";
 import { AuthContext } from "../../Providers/AuthProvider";
 const Login = () => {
-    const { signIn, signInWithGoogle, } = useContext(AuthContext)
+    
     const handleLogin = e => {
         e.preventDefault();
         const form = new FormData(e.currentTarget);
