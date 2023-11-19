@@ -15,7 +15,7 @@ const Navbar = () => {
     <li><NavLink className="py-3 px-4 text-fuchsia-700 rounded-xl hover:text-white font-bold hover:bg-fuchsia-700" to="/">Home</NavLink></li>
     <li><NavLink className="py-3 px-4 text-fuchsia-700 rounded-xl hover:text-white font-bold hover:bg-fuchsia-700" to="/allJobs">All Jobs</NavLink></li>
     <li><NavLink className="py-3 px-4 text-fuchsia-700 rounded-xl hover:text-white font-bold hover:bg-fuchsia-700" to="/appliedJobs">Applied Jobs</NavLink></li>
-    <li><NavLink className="py-3 px-4 text-fuchsia-700 rounded-xl hover:text-white font-bold hover:bg-fuchsia-700" to="/addJob">Add A Job</NavLink></li>
+    <li><NavLink className="py-3 px-4 text-fuchsia-700 rounded-xl hover:text-white font-bold hover:bg-fuchsia-700" to="/    ">Add A Job</NavLink></li>
     <li><NavLink className="py-3 px-4 text-fuchsia-700 rounded-xl hover:text-white font-bold hover:bg-fuchsia-700" to="/myJobs">My Jobs</NavLink></li>
     </>
     return (
