@@ -103,7 +103,7 @@ const Register = () => {
                 <label className="label">
                   <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                 </label>
-              </div>
+              </div>np
               <div className="form-control mt-6">
                 <button className="btn text-white font-bold bg-fuchsia-600">Register</button>
                 <button onClick={handleWithGoogle} className="btn  font-bold bg-white border-2 border-fuchsia-700 mb-3 mt-3"><img className="w-9" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png" alt="" /></button>

@@ -22,11 +22,12 @@ const AddAJobs = () => {
         const job_description = form.job_description.value;
         const application_deadline = form.application_deadline.value;
         const job_posting_date = form.job_posting_date.value;
+        const email = user?.email;
 
-        const TheDataOfAddedJobs = { picture_url, job_title,  job_category, user_name, salary_range, job_description, job_posting_date , application_deadline, applicantsNumber}
+        const TheDataOfAddedJobs = { picture_url, job_title,  job_category, user_name, salary_range, job_description, job_posting_date , application_deadline, applicantsNumber, email}
 
         // send data to the server
-        fetch('http://localhost:5000/addJobs', {
+        fetch('https://empowering-futures-server-side.vercel.app/addJobs', {
           method: 'POST',
           headers: {
               'content-type': 'application/json'
@@ -83,8 +84,8 @@ const AddAJobs = () => {
               >
                 <option value="On Site Job">On Site Job</option>
                 <option value="Remote Job">Remote Job</option>
-                <option value="Hybrid">Hybrid</option>
-                <option value="Part Time">Part Time</option>
+                <option value="Hybrid Job">Hybrid</option>
+                <option value="Part Time Job">Part Time</option>
               </select>
           
       
